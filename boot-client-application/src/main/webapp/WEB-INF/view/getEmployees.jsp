@@ -5,7 +5,7 @@
 <title>Get Employees</title>
 </head>
 <body>
-    <h3 style="color: red;">Get Employee Info</h3>
+    <h3 style="color: blue;">Get Employee Info</h3>
 
     <div id="getEmployees">
     

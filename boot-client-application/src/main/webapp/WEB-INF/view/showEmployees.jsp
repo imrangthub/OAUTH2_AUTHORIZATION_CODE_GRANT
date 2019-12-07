@@ -6,10 +6,10 @@
 </head>
 <body>
 
-	<h3 style="color: red;">Show All Employees</h3>
+	<h3 style="color: green;">Show All Employees</h3>
 	<ul>
-		<c:forEach var="listValue" items="">
-			<li></li>
+		<c:forEach var="empObj" items="${employeeList }">
+			<li>${empObj.empName }</li>
 		</c:forEach>
 	</ul>
 </body>
